@@ -1,0 +1,200 @@
+Usermanual For Alt Control
+
+Made by Homolife#1525
+Default settings:
+Dedault Prefix: ?
+AdvertiseMessage: .gg/encrypt
+
+How to use?
+First input the operators ID inside the brackets, the operators are the one who are gonna controll the alts. Second input all the droppers ID inside the Droppers bracket. Then load all your accounts, but execute the same script as well.
+
+Script
+Copy the whole thing below.
+
+-- Only required when using command setup/lineuup.
+getgenv().Droppers = {}
+-- Required for all commands. [operators can't drop]
+getgenv().Operator = {}
+-- Required to operate [default is ?]
+getgenv().Prefix = "?"
+-- Required for the command advertise or ad
+getgenv().AdvertiseMessage = ".gg/encrypt"
+-- Required when command ?buyerbring is used.
+getgenv().BringerID = {} -- Only 1 alt thats in the game.
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fuckscripts/dhshit/main/alt_control.lua"))()
+
+Commands:
+
+Command: setup
+Description: Sets up all the alts in place in either bank or admin base.
+Command usage: ?setup [place] [type]
+Example: ?setup admin lineup
+Place options: admin, bank, court, club
+
+Command: lowgfx
+Description: Lowers the games graphics or GFX.
+Command usage: lowgfx [player] [type]
+Example: ?lowgfx roblox extreme
+Type options: extreme, normal
+
+Command: remove
+Description: Removes a thing from the game.
+Command usage: ?remove [type] [player]
+Example: ?remove audio roblox
+Type options: audio, snow, player, legs
+
+Command: customdrop
+Description: Makes alts drop at the same time, till it reaches a specfic amount.
+Command usage: ?customdrop [amount] [player]
+Example: ?customdrop 12m roblox
+Type options: 100k-20m
+
+Command: setfps
+Description: Locks a FPS for an account.
+Command usage: ?setfps [player] [fps]
+Example: ?setfps roblox 10
+Type otions: 10fps-200fps
+
+Command: bring
+Description: Brings alt to you.
+Command usage: ?bring [player]
+Example: ?bring roblox
+Type options: Any player thats a dropper.
+
+Command: pray
+Description: Makes a alt pray nonestop.
+Command usage: ?pray [player]
+Example: ?pray roblox
+Type options: Any player thats a dropper.
+
+Command: unpray
+Description: Stops an alt from praying.
+Command usage: ?unpray [player]
+Example: ?unpray roblox
+Type options: Any player thats a dropper.
+
+Command: vibe1
+Description: Makes a alt do dance 1.
+Command usage: ?vibe1 [player]
+Example: ?vibe1 roblox
+Type options: Any player thats a dropper.
+
+Command: vibe2
+Description: Makes a alt do dance 2.
+Command usage: ?vibe2 [player]
+Example: ?vibe2 roblox
+Type options: Any player thats a dropper.
+
+Command: unvibe
+Description: Stops alt from doing dance 1 or 2.
+Command usage: ?unvibe[player]
+Example: ?unvibe roblox
+Type options: Any player thats a dropper.
+
+Command: freeze
+Description: Freezes a dropper/alt.
+Command usage: ?freeze [player]
+Example: ?freeze roblox
+Type options: Any player thats a dropper.
+
+Command: unfreeze
+Description: Unfreezes a dropper/alt.
+Command usage: ?unfreeze [player]
+Example: ?unfreeze roblox
+Type options: Any player thats a dropper.
+
+Command: hide
+Description: Hides a dropper/alt.
+Command usage: ?hide [player]
+Example: ?hide roblox
+Type options: Any player thats a dropper.
+
+Command: unhide
+Description: Brings a dropper/alt back.
+Command usage: ?unhide [player]
+Example: ?unhide roblox
+Type options: Any player thats a dropper.
+
+Command: wallet
+Description: Shows an alt/dropper wallet.
+Command usage: ?wallet [player]
+Example: ?wallet roblox
+Type options: Any player thats a dropper.
+
+Command: unwallet
+Description: Unshows an alt/dropper wallet.
+Command usage: ?unwallet [player]
+Example: ?unwallet roblox
+Type options: Any player thats a dropper.
+
+Command: lineup
+Description: Makes an alt/dropper lineup next to the operator.
+Command usage: ?lineup [player]
+Example: ?lineup roblox
+Type options: Any player thats a dropper.
+
+Command: ad
+Description: Makes an alt/dropper advertise a message.
+Command usage: ?ad [player]
+Example: ?ad roblox
+Type options: Any player thats a dropper.
+
+Command: unad
+Description: Makes an alt/dropper stop advertising.
+Command usage: ?unad [player]
+Example: ?unad roblox
+Type options: Any player thats a dropper.
+
+Command: drop
+Description: Makes an alt/dropper drop cash.
+Command usage: ?drop [player]
+Example: ?drop roblox
+Type options: Any player thats a dropper.
+
+Command: undrop
+Description: Makes an alt/dropper stop dropping cash.
+Command usage: ?undrop [player]
+Example: ?undrop roblox
+Type options: Any player thats a dropper.
+
+Command: block
+Description: Makes an alt/dropper block.
+Command usage: ?block [player]
+Example: ?block roblox
+Type options: Any player thats a dropper.
+
+Command: unblock
+Description: Makes an alt/dropper stop blocking.
+Command usage: ?unblock [player]
+Example: ?unblock roblox
+Type options: Any player thats a dropper.
+
+Command: say
+Description: Makes an alt/dropper say a message.
+Command usage: ?say [player] [message]
+Example: ?say roblox encrypt
+Type options: Any player thats a dropper.
+
+Command: airfreeze
+Description: Makes an alt/dropper freeze while in the air.
+Command usage: ?airfreeze [player]
+Example: ?airfreeze roblox
+Type options: Any player thats a dropper.
+
+Command: setstop
+Description: Makes an alt stop the buyer from picking up when the goal has been reached.
+Command usage: ?setstop [buyer name] [order amount]
+Example: ?setstop john 1.0m
+Type options: Any player thats a buyer. Make sure add a 1.0 for 1m or 1.2 for 1.2m or 10.0m for 10m
+
+Command: buyerbring
+Description: Makes an alt bring the buyer to the operator.
+Command usage: ?buyerbring [buyer name]
+Example: ?buyerbring john
+Type options: Any player thats a buyer.
+
+Command: surround
+Description: Surrounds alts on a player.
+Command usage: ?surround [player]
+Example: ?surround roblox
+Type options: Any player thats not a dropper/alt.

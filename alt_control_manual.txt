@@ -233,6 +233,6 @@ Type options: Any player thats a dropper/alt.
 
 Command: scramble
 Description: Scrambles alts around a player.
-Command usage: ?scramble [player]
-Example: ?scramble roblox
+Command usage: ?scramble [number]
+Example: ?scramble 13
 Type options: Any player thats not a dropper/alt.

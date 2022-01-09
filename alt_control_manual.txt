@@ -8,6 +8,8 @@ AdvertiseMessage: .gg/encrypt
 How to use?
 First input the operators ID inside the brackets, the operators are the one who are gonna controll the alts. Second input all the droppers ID inside the Droppers bracket. Then load all your accounts, but execute the same script as well.
 
+30+ Advanced Commands.
+
 Script
 Copy the whole thing below.
 
@@ -181,6 +183,12 @@ Command usage: ?airfreeze [player]
 Example: ?airfreeze roblox
 Type options: Any player thats a dropper.
 
+Command: unairfreeze
+Description: Makes an alt/dropper unfreeze while in the air.
+Command usage: ?airfreeze [player]
+Example: ?airfreeze roblox
+Type options: Any player thats a dropper.
+
 Command: setstop
 Description: Makes an alt stop the buyer from picking up when the goal has been reached.
 Command usage: ?setstop [buyer name] [order amount]
@@ -197,4 +205,34 @@ Command: surround
 Description: Surrounds alts on a player.
 Command usage: ?surround [player]
 Example: ?surround roblox
+Type options: Any player thats a dropper/alt.
+
+Command: destroy
+Description: Destroys cash around an alt/dropper.
+Command usage: ?destroy [player]
+Example: ?surround roblox
+Type options: Any player thats a dropper/alt.
+
+Command: undestroy
+Description: Stop destroying cash on a alt/dropper screen.
+Command usage: ?undestroy [player]
+Example: ?undestroy roblox
+Type options: Any player thats a dropper/alt.
+
+Command: gpu
+Description: Blacks out a alt screen.
+Command usage: ?gpu [player]
+Example: ?gpu roblox
+Type options: Any player thats a dropper/alt.
+
+Command: ungpu
+Description: Removes black screen from an alts screen.
+Command usage: ?ungpu [player]
+Example: ?ungpu roblox
+Type options: Any player thats a dropper/alt.
+
+Command: scramble
+Description: Scrambles alts around a player.
+Command usage: ?scramble [player]
+Example: ?scramble roblox
 Type options: Any player thats not a dropper/alt.

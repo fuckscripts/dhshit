@@ -236,3 +236,21 @@ Description: Scrambles alts around a player.
 Command usage: ?scramble [number]
 Example: ?scramble 13
 Type options: Any player thats not a dropper/alt.
+
+Command: moneygun
+Description: Buys money guns.
+Command usage: ?moneygun [player]
+Example: ?moneygun roblox
+Type options: Any player thats a dropper/alt.
+
+Command: activate
+Description: Activates the money guns.
+Command usage: ?activate[player]
+Example: ?activate roblox
+Type options: Any player thats a dropper/alt.
+
+Command: unactivate
+Description: Unactivates the money guns.
+Command usage: ?ubactivate [player]
+Example: ?ubactivate roblox
+Type options: Any player thats a dropper/alt.

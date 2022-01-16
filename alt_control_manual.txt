@@ -251,6 +251,12 @@ Type options: Any player thats a dropper/alt.
 
 Command: unactivate
 Description: Unactivates the money guns.
-Command usage: ?ubactivate [player]
-Example: ?ubactivate roblox
+Command usage: ?unactivate [player]
+Example: ?unactivate roblox
 Type options: Any player thats a dropper/alt.
+
+Command: fcrash
+Description: Starts a OP crasher.
+Command usage: ?unactivate [arg]
+Example: ?unactivate .
+Type options: . To do mass.
